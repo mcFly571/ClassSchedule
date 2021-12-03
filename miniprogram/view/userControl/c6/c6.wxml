@@ -1,0 +1,11 @@
+<view>
+  <view>
+    <input name="mf" style="position: relative;" bindinput="mfAttribute" placeholder="未填行程" />
+    <input name="ms" style="position: relative; top: 10px;" bindinput="msAttribute" placeholder="未填行程" />
+    <input name="af" style="position: relative; top: 20px;" bindinput="afAttribute" placeholder="未填行程" />
+    <input name="as" style="position: relative; top: 30px;" bindinput="asAttribute" placeholder="未填行程" />
+  </view>
+  <view>
+    <button class="save" style="position: relative; top: 80px;" bindtap="dbLink">/点我保存/</button>
+  </view>
+</view>

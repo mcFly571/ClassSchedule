@@ -1,0 +1,17 @@
+/* view/monday/monday.wxss */
+.mFir{
+  height: 120px;
+  background-color: rgb(43, 205, 226);
+}
+.mSec{
+  height: 120px;
+  background-color: rgba(255, 94, 0, 0.993);
+}
+.aFir{
+  height: 120px;
+  background-color: rgb(43, 205, 226);
+}
+.aSec{
+  height: 120px;
+  background-color: rgba(255, 94, 0, 0.993);
+}

@@ -1,0 +1,19 @@
+/* view/tuesday/tuesday.wxss */
+.mFir{
+  height: 120px;
+  background-color: gray;
+}
+.mSec{
+  height: 120px;
+  color: antiquewhite;
+  background-color: black;
+}
+.aFir{
+  height: 120px;
+  background-color: gray;
+}
+.aSec{
+  height: 120px;
+  color: antiquewhite;
+  background-color: black;
+}

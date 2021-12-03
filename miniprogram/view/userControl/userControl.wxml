@@ -1,0 +1,8 @@
+<view class="title">点击按钮设置行程表</view>
+<button style="position: relative;" bindtap="gotoSetMonDay">星期一</button>
+<button style="position: relative; top: 30px;" bindtap="gotoSetTuesday">星期二</button>
+<button style="position: relative; top: 60px" bindtap="gotoSetWednesday">星期三</button>
+<button style="position: relative; top: 90px" bindtap="gotoSetThursday">星期四</button>
+<button style="position: relative; top: 120px" bindtap="gotoSetFriday">星期五</button>
+<button style="position: relative; top: 150px" bindtap="gotoSetSaturday">星期六</button>
+<button style="position: relative; top: 180px" bindtap="gotoSetSunday">星期日</button>

@@ -1,0 +1,1 @@
+"V:\小程序开发\微信web开发者工具\cli.bat" cloud functions deploy --e cloud1-9gny283q0cf9157d --n quickstartFunctions --r --project "V:\ClassSchedule" --report_first --report

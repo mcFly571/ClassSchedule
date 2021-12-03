@@ -1,0 +1,7 @@
+<text wx:if="{{!hasLogin}}" style="display: flex;flex-direction: column;align-items: center;">登录后定制属于自已的行程表！</text>
+<button wx:if="{{!hasLogin}}" bindtap="login">点击登录</button>
+<view wx:else class="user">
+  <image class="userIcon" src="{{icon}}"></image>
+  <text class="userName">{{nickName}}</text>
+  <button bindtap="outLogin">退出登录</button>
+</view>

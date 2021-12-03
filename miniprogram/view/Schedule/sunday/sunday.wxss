@@ -1,0 +1,17 @@
+/* view/sunday/sunday.wxss */
+.mFir{
+  height: 120px;
+  background-color: gold;
+}
+.mSec{
+  height: 120px;
+  background-color: blueviolet;
+}
+.aFir{
+  height: 120px;
+  background-color: gold;
+}
+.aSec{
+  height: 120px;
+  background-color: blueviolet;
+}

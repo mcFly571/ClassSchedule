@@ -1,0 +1,21 @@
+<view class="calendar">
+  <view class="tit">
+    <view class='pre' bindtap='gotoPreMonth'>{{'<'}}</view>
+    <view class='current'>{{currentYear}}年{{currentMonth}}月</view>
+    <view class='next' bindtap='gotoNextMonth'>{{'>'}}</view>
+  </view>
+  <view class='content'>
+    <view>日</view>
+    <view>一</view>
+    <view>二</view>
+    <view>三</view>
+    <view>四</view>
+    <view>五</view>
+    <view>六</view>
+    <!-- 打印数组中所有数字，用wxss来判断是灰还是黑，然后用bindtap加三目运算符实现黑的可以点击灰的不能点击，从js里调当前时间来实现当前时间为红色 -->
+    <view wx:for="{{allArr}}" class="{{item.month == 'current' ? '' : 'gray'}}" bindtap="{{item.month == 'current' ? 'gotoNewView' : ''}}" data-year="{{currentYear}}" data-month="{{currentMonth}}" data-date="{{item.date}}">
+    <text wx:if="{{item.isCurrentDate == true && rMonth == currentMonth && rYear == currentYear}}" style="color: red;">{{item.date}}</text>
+     <text wx:else>{{item.date}}</text>
+     </view>
+  </view>
+</view>

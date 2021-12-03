@@ -1,0 +1,17 @@
+/* view/wednesday/wednesday.wxss */
+.mFir{
+  height: 120px;
+  background-color: darkolivegreen;
+}
+.mSec{
+  height: 120px;
+  background-color: darkslategray;
+}
+.aFir{
+  height: 120px;
+  background-color: darkolivegreen;
+}
+.aSec{
+  height: 120px;
+  background-color: darkslategray;
+}

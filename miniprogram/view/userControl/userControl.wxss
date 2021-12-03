@@ -1,0 +1,4 @@
+/* view/userControl/userControl.wxss */
+.title{
+  text-align: center;
+}

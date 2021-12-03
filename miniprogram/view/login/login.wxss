@@ -1,0 +1,11 @@
+.user{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userIcon{
+  width:200rpx;
+  height:200rpx;
+  border-radius: 50%;
+}

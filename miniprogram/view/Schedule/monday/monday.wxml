@@ -1,0 +1,7 @@
+<text style="display: flex;flex-direction: column;align-items: center;">星期一</text>
+<view wx:for="{{scheduleData}}">
+  <view class='mFir'>{{item.mFir}}</view>
+  <view class="mSec">{{item.mSec}}</view>
+  <view class="aFir">{{item.aFir}}</view>
+  <view class="aSec">{{item.aSec}}</view>
+</view>

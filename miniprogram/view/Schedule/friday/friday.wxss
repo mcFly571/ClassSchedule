@@ -1,0 +1,15 @@
+/* view/friday/friday.wxss */
+.mFir{
+  height: 120px;
+  background-color: rgb(0, 183, 255);
+}
+.mSec{
+  height: 120px;
+}
+.aFir{
+  height: 120px;
+  background-color: rgb(0, 183, 255);
+}
+.aSec{
+  height: 120px;
+}

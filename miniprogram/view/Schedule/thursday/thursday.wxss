@@ -1,0 +1,17 @@
+/* view/thursday/thursday.wxss */
+.mFir{
+  height: 120px;
+  background-color: yellow;
+}
+.mSec{
+  height: 120px;
+  background-color: tomato;
+}
+.aFir{
+  height: 120px;
+  background-color: yellow;
+}
+.aSec{
+  height: 120px;
+  background-color: tomato;
+}

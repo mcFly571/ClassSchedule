@@ -1,0 +1,19 @@
+/* view/saturday/saturday.wxss */
+.mFir{
+  height: 120px;
+  color: aliceblue;
+  background-color: black;
+}
+.mSec{
+  height: 120px;
+  background-color: pink;
+}
+.aFir{
+  height: 120px;
+  color: aliceblue;
+  background-color: black;
+}
+.aSec{
+  height: 120px;
+  background-color: pink;
+}

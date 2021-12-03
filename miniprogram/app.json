@@ -1,0 +1,55 @@
+{
+  "pages": [
+    "view/login/login",
+    "calendarDAO/calendarDAO",
+    "view/Schedule/monday/monday",
+    "view/Schedule/tuesday/tuesday",
+    "view/Schedule/wednesday/wednesday",
+    "view/Schedule/thursday/thursday",
+    "view/Schedule/friday/friday",
+    "view/Schedule/saturday/saturday",
+    "view/Schedule/sunday/sunday",
+    "view/userControl/userControl",
+    "view/userControl/c1/c1",
+    "view/userControl/c2/c2",
+    "view/userControl/c3/c3",
+    "view/userControl/c4/c4",
+    "view/userControl/c5/c5",
+    "view/userControl/c6/c6",
+    "view/userControl/c7/c7"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "📅",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#00000",
+    "list": [
+      {
+        "pagePath": "calendarDAO/calendarDAO",
+        "text": "日历",
+        "iconPath": "img/date.png",
+        "selectedIconPath": "img/date.png"
+      },
+      {
+        "pagePath": "view/userControl/userControl",
+        "text": "设置课表",
+        "iconPath": "img/userTool.png",
+        "selectedIconPath": "img/userTool.png"
+      },
+      {
+        "pagePath": "view/login/login",
+        "text": "用户登录",
+        "iconPath": "img/login.png",
+        "selectedIconPath": "img/login.png"
+      }
+    ],
+    "position": "bottom",
+    "custom": false
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}
